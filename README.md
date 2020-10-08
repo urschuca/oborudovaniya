@@ -1,8 +1,19 @@
-LighterPack
+oborudovaniya
 ===========
-LighterPack helps you track the gear you bring on adventures.
+Oborudovaniya est un fork de LighterPack adapté à l'airsoft.
 
-How to run Lighterpack
+
+TODO
+-----------
+
+- [ ] Working dockerfile
+- [ ] Ajouter la catégorie (munition pour bb + grenades)
+- [ ] Ecran d'accueil badass
+- [ ] Repenser le principe de worn/consumable/base weight
+- [ ] Traduire en Francais
+
+
+How to run oborudovaniya
 -----------
 
 1. Install node.js, npm and mongo
