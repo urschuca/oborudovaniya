@@ -12,10 +12,10 @@
             <div class="columns">
                 <div class="lpHalf">
                     <h3>
-                        Forgot Your Password?
+                        Mot de passe oublié ?
                     </h3>
 
-                    <p>Please enter your username.</p>
+                    <p>Veuillez renseigner votre nom utilisateur</p>
                     <form class="forgotPassword" @submit.prevent="resetPassword">
                         <div class="lpFields">
                             <input v-model="forgotPasswordUsername" type="text" placeholder="Username" name="username" class="username">
@@ -27,10 +27,10 @@
                 </div>
                 <div class="lpHalf">
                     <h3>
-                        Forgot Your Username?
+                        Nom d'utilisateur oublié ?
                     </h3>
 
-                    <p>Please enter your email address.</p>
+                    <p>Veuillez renseigner votre adresse email.</p>
                     <form class="forgotUsername" @submit.prevent="forgotUsername">
                         <div class="lpFields">
                             <input v-model="forgotUsernameEmail" type="text" placeholder="Email Address" name="email" class="email">
@@ -41,7 +41,7 @@
                     </form>
                 </div>
                 <router-link to="/signin" class="lpHref">
-                    &larr; Return to sign in
+                    &larr; Retour à l'écran de connexion
                 </router-link>
             </div>
         </modal>

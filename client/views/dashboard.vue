@@ -79,9 +79,9 @@
                 <listSettings />
                 <accountDropdown v-if="isSignedIn" />
                 <span v-else class="headerItem signInRegisterButtons">
-                    <router-link to="/register" class="lpButton lpSmall">Register</router-link>
+                    <router-link to="/register" class="lpButton lpSmall">S'enregister</router-link>
                     or
-                    <router-link to="/signin" class="lpButton lpSmall">Sign In</router-link>
+                    <router-link to="/signin" class="lpButton lpSmall">Se connecter</router-link>
                 </span>
                 <span class="clearfix" />
             </div>
@@ -90,7 +90,7 @@
 
             <div id="lpFooter">
                 <div class="lpSiteBy">
-                    Site by <a class="lpHref" href="https://www.galenmaly.com/" target="_blank" rel="noopener noreferrer">Galen Maly</a>
+			Site by URK on an idea of <a class="lpHref" href="https://www.galenmaly.com/" target="_blank" rel="noopener noreferrer">GalenMaly</a>
                     and <a class="lpHref" href="https://github.com/galenmaly/lighterpack/graphs/contributors" target="_blank" rel="noopener noreferrer">friends</a>.
                 </div>
                 <div class="lpContact">

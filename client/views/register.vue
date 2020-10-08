@@ -7,15 +7,15 @@
         <modal id="register" :shown="true" :blackout="true">
             <div class="lpModalHeader">
                 <h2>
-                    Register an account
+                    Créer un compte
                 </h2>
                 <router-link to="/signin" class="lpHref">
-                    Already registered?
+                    Déjà enregistré ?
                 </router-link>
             </div>
 
             <p v-if="isLocalSaving" class="lpWarning">
-                <strong>Note:</strong> Your existing data on your computer <strong>will</strong> be saved to your new account.
+                <strong>Note:</strong> Vos données existantes <strong>seront</strong> sauvegardés dans votre compte.
             </p>
 
             <registerForm />

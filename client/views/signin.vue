@@ -7,10 +7,10 @@
         <modal id="signin" :shown="true" :blackout="true">
             <div class="lpModalHeader">
                 <h2>
-                    Sign in
+                    Se connecter
                 </h2>
                 <router-link to="/register" class="lpHref">
-                    Need to register?
+                    Pas encore enregistré ?
                 </router-link>
             </div>
             <SigninForm :message="message" />

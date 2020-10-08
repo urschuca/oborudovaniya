@@ -107,29 +107,29 @@ $welcomeVerticalSpacing: 80px;
     <div id="lpWelcomeContainer">
         <div id="lpLaunchBanner">
             <div class="lpContainer">
-                <strong>Welcome to the new version of LighterPack!</strong> We hope you like it, and if you have any questions please <a href="mailto:info@lighterpack.com" class="lpHref">get in touch</a>.
+#                <strong>Welcome to the new version of LighterPack!</strong> We hope you like it, and if you have any questions please <a href="mailto:info@lighterpack.com" class="lpHref">get in touch</a>.
             </div>
         </div>
         <div id="lpWelcome" class="lpContainer">
-            <h1><strong>LighterPack</strong> helps you track the gear you bring on adventures.</h1>
+            <h1><strong>oborudovaniya</strong> est un clone de lighterpack concu pour l'airsoft.</h1>
             <div class="lpWelcomeContent">
                 <div class="lpWelcomeRegisterContainer">
                     <div class="lpWelcomeRegister">
                         <h3 class="lpWelcomeContainerHeader">
-                            Register an account
+                            Créer un compte
                         </h3>
                         <registerForm />
                     </div>
                     <div class="lpValuePropContainer">
                         <ul id="lpValueProp">
                             <li id="valueEnter">
-                                <h3><strong>1.</strong>Enter your packing lists</h3>
+                                <h3><strong>1.</strong>Renseigner voter kitlist</h3>
                             </li>
                             <li id="valueVisualize">
-                                <h3><strong>2.</strong>Visualize your pack weights</h3>
+                                <h3><strong>2.</strong>Visualiser le poids de votre équipements</h3>
                             </li>
                             <li id="valueShare">
-                                <h3><strong>3.</strong>Share your lists with others</h3>
+                                <h3><strong>3.</strong>Parager votre liste avec d'autre personnes</h3>
                             </li>
                         </ul>
                         <img id="lpWelcomeScreenshot" src="/images/screenshot.jpg" alt="A screenshot of the LighterPack interface">
@@ -137,7 +137,7 @@ $welcomeVerticalSpacing: 80px;
                 </div>
                 <div class="lpWelcomeSigninContainer">
                     <h3 class="lpWelcomeContainerHeader">
-                        Sign in
+                        Se connecter
                     </h3>
                     <SigninForm />
                 </div>
